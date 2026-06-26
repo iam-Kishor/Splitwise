@@ -82,3 +82,7 @@ For invite links (`?join=GROUP_ID`) to function on subpages, ensure your static 
 ## File Security Policies
 - **Database**: Enforced via RLS in `schema.sql` allowing group members to read/write only their own expenses/settlements/member data.
 - **Storage**: Enforced using folder names matching `group_id`. A user can only access storage path `group_id/filename.ext` if `group_id` exists in the database and user is registered as a member.
+
+- <img width="545" height="705" alt="image" src="https://github.com/user-attachments/assets/05e2ccfb-3929-40eb-98d6-952529a55daa" />
+<img width="558" height="892" alt="image" src="https://github.com/user-attachments/assets/5ac13dd7-3e4c-447a-9d07-e1224a7b4ead" />
+
